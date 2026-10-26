@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>Language Coach — Coach Bubbi</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFC247"/>
+      <stop offset="1" stop-color="#FF6B3D"/>
+    </linearGradient>
+    <clipPath id="body"><rect x="36" y="46" width="184" height="152" rx="64"/></clipPath>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <!-- soft shadow -->
+  <g fill="#B8401F" opacity="0.25">
+    <rect x="36" y="54" width="184" height="152" rx="64"/>
+    <path d="M76 192 L58 236 L116 200Z"/>
+  </g>
+  <!-- speech-bubble body -->
+  <rect x="36" y="46" width="184" height="152" rx="64" fill="#FFFFFF"/>
+  <path d="M76 184 L58 228 L116 192Z" fill="#FFFFFF"/>
+  <!-- coach headband + knot -->
+  <g clip-path="url(#body)">
+    <rect x="30" y="66" width="200" height="28" fill="#E8344E"/>
+    <rect x="30" y="77" width="200" height="6" fill="#FFFFFF" opacity="0.9"/>
+  </g>
+  <path d="M206 72 L240 56 L236 80Z" fill="#E8344E"/>
+  <path d="M206 86 L238 100 L226 110Z" fill="#C42A40"/>
+  <!-- eyes -->
+  <ellipse cx="100" cy="130" rx="13" ry="17" fill="#2A2140"/>
+  <ellipse cx="156" cy="130" rx="13" ry="17" fill="#2A2140"/>
+  <circle cx="105" cy="122" r="5" fill="#FFFFFF"/>
+  <circle cx="161" cy="122" r="5" fill="#FFFFFF"/>
+  <!-- cheeks -->
+  <ellipse cx="78" cy="156" rx="13" ry="8" fill="#FF7E95" opacity="0.6"/>
+  <ellipse cx="178" cy="156" rx="13" ry="8" fill="#FF7E95" opacity="0.6"/>
+  <!-- smile -->
+  <path d="M108 150 Q128 182 148 150 Z" fill="#2A2140"/>
+  <path d="M116 162 Q128 174 140 162 Q128 156 116 162Z" fill="#FF6B81"/>
+</svg>
